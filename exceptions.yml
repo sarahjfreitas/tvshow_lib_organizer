@@ -1,0 +1,49 @@
+Doctor Who:
+  S01E14: S00E02 # The Christmas Invasion
+  S02E14: S00E04 # The Runaway Bride
+  S03E14: S00E07 # Voyage of the Damned
+
+  # Weird 2 years hiatus between seasons 4 and 5
+  S04E14: S00E09 # The Next Doctor
+  S04E15: S00E13 # Planet of the Dead
+  S04E16: S00E14 # The Waters of Mars
+  S04E17: S00E16 # The End of Time, Part One
+  S04E18: S00E17 # The End of Time, Part Two
+
+  S05E14: S00E34 # A Christmas Carol
+  S06E14: S00E47 # The Doctor, the Widow and the Wardrobe
+  
+  # Season 7 is split into two parts, doctor who is weird
+  S07E06: S00E66 # The Snowmen
+  S07E07: S07E06 # The bells of Saint John
+  S07E08: S07E07 # The rings of Akhaten
+  S07E09: S07E08 # Cold War
+  S07E10: S07E09 # Hide
+  S07E11: S07E10 # Journey to the Centre of the TARDIS
+  S07E12: S07E11 # The Crimson Horror
+  S07E13: S07E12 # Nightmare in Silver
+
+  # 50TH Anniversary Specials
+  S07E14: S07E13 # The Name of the Doctor
+  S07E15: S00E83 # The Day of the Doctor
+  S07E16: S00E84 # The Time of the Doctor
+
+  S08E13: S00E142 # Last Christmas
+  S09E13: S00E148 # The Husbands of River Song
+  S09E14: S00E149 # The Return of Doctor Mysterio
+  S10E13: S00E154 # Twice Upon a Time
+  S11E11: S00E156 # Resolution
+  S12E11: S00E158 # Revolution of the Daleks
+
+  # 60TH Anniversary Specials
+  S13E07: S00E208 # Eve of the Daleks
+  S13E08: S00E209 # Legend of the Sea Devils
+  S13E09: S00E210 # Power of the Doctor
+
+  # I need to figure out how to handle this
+  S13E10: S00E210 # The Star Beast
+  S13E11: S00E210 # Wild Blue Yonder
+  S13E12: S00E210 # The Giggle
+
+  S13E14: S00E210 # The Church on Ruby Road
+  S14E09: S00E210 # Joy to the World

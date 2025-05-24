@@ -1,0 +1,10 @@
+services:
+  ruby-nfo:
+    build: .
+    volumes:
+      - /mnt/storage/KodiLib/Series:/library
+      - /mnt/storage/KodiLib/Incoming:/incoming
+      - /mnt/storage/lib_organizer:/app
+    working_dir: /app
+    env_file:
+      - .env
