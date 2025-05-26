@@ -20,7 +20,11 @@ class TMDBClient
   end
 
   def fetch_episode(tv_id, season, episode)
+    puts "Buscando episódio: TV ID: #{tv_id}, Season: #{season}, Episode: #{episode}"
+
     season -= 13 if tv_id == 239770 # Adjust for Doctor Who
+
+    puts "Season ajustada: #{season}"
 
     uri = build_episode_uri(tv_id, season, episode)
     res = Net::HTTP.get_response(uri)
@@ -36,7 +40,10 @@ class TMDBClient
   end
 
   def fetch_season(tv_id, season_number)
-    season -= 13 if tv_id == 239770 # Adjust for Doctor Who
+    puts "Buscando season: TV ID: #{tv_id}, Season Number: #{season_number}"
+    season_number -= 13 if tv_id == 239770 # Adjust for Doctor Who
+
+    puts "Season ajustada: #{season}"
 
     uri = build_season_uri(tv_id, season_number)
     res = Net::HTTP.get_response(uri)
