@@ -29,7 +29,7 @@ class Organizer
 
     puts "📦 Processando: #{clean_name} S%02dE%02d" % [season, episode]
 
-    tv_id = @tmdb.series_id(clean_name)
+    tv_id = @tmdb.series_id(clean_name, season)
     unless tv_id
       warn "❌ ID da série não encontrado: #{clean_name}"
       return
